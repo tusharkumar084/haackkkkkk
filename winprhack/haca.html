@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrystalDAO - Decentralized Governance</title>
+    <link rel="stylesheet" href="hacak.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-gradient"></div>
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-gem"></i>
+                <span>CrystalDAO</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#dashboard" class="nav-link active">Dashboard</a>
+                <a href="#proposals" class="nav-link">Proposals</a>
+                <a href="#treasury" class="nav-link">Treasury</a>
+                <a href="#governance" class="nav-link">Governance</a>
+            </div>
+            <button class="connect-wallet glass-button">
+                <i class="fas fa-wallet"></i>
+                Connect Wallet
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="dashboard" class="hero-section">
+            <div class="container">
+                <div class="hero-content glass">
+                    <h1>Welcome to CrystalDAO</h1>
+                    <p>Participate in decentralized governance and shape the future of our community</p>
+                    <div class="hero-stats">
+                        <div class="stat-item glass">
+                            <div class="stat-value">$2.4M</div>
+                            <div class="stat-label">Treasury Value</div>
+                        </div>
+                        <div class="stat-item glass">
+                            <div class="stat-value"> 1,247</div>
+                            <div class="stat-label">Active Members</div>
+                        </div>
+                        <div class="stat-item glass">
+                            <div class="stat-value">23</div>
+                            <div class="stat-label">Active Proposals</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proposals Section -->
+        <section id="proposals" class="proposals-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Active Proposals</h2>
+                    <button class="create-proposal-btn glass-button">
+                        <i class="fas fa-plus"></i>
+                        Create Proposal
+                    </button>
+                </div>
+                <div class="proposals-grid">
+                    <div class="proposal-card glass">
+                        <div class="proposal-header">
+                            <div class="proposal-status active">Active</div>
+                            <div class="proposal-id">#DAO-001</div>
+                        </div>
+                        <h3>Increase Marketing Budget for Q4</h3>
+                        <p>Proposal to allocate additional 500K tokens for marketing initiatives to expand community reach and adoption.</p>
+                        <div class="proposal-stats">
+                            <div class="voting-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 68%"></div>
+                                </div>
+                                <div class="progress-labels">
+                                    <span>68% For</span>
+                                    <span>32% Against</span>
+                                </div>
+                            </div>
+                            <div class="proposal-meta">
+                                <span><i class="fas fa-clock"></i> 3 days left</span>
+                                <span><i class="fas fa-users"></i> 847 votes</span>
+                            </div>
+                        </div>
+                        <div class="proposal-actions">
+                            <button class="vote-btn vote-for glass-button">
+                                <i class="fas fa-thumbs-up"></i>
+                                Vote For
+                            </button>
+                            <button class="vote-btn vote-against glass-button">
+                                <i class="fas fa-thumbs-down"></i>
+                                Vote Against
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="proposal-card glass">
+                        <div class="proposal-header">
+                            <div class="proposal-status active">Active</div>
+                            <div class="proposal-id">#DAO-002</div>
+                        </div>
+                        <h3>New Partnership with DeFi Protocol</h3>
+                        <p>Strategic partnership proposal with leading DeFi protocol to enhance yield farming opportunities for DAO members.</p>
+                        <div class="proposal-stats">
+                            <div class="voting-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 45%"></div>
+                                </div>
+                                <div class="progress-labels">
+                                    <span>45% For</span>
+                                    <span>55% Against</span>
+                                </div>
+                            </div>
+                            <div class="proposal-meta">
+                                <span><i class="fas fa-clock"></i> 5 days left</span>
+                                <span><i class="fas fa-users"></i> 623 votes</span>
+                            </div>
+                        </div>
+                        <div class="proposal-actions">
+                            <button class="vote-btn vote-for glass-button">
+                                <i class="fas fa-thumbs-up"></i>
+                                Vote For
+                            </button>
+                            <button class="vote-btn vote-against glass-button">
+                                <i class="fas fa-thumbs-down"></i>
+                                Vote Against
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="proposal-card glass">
+                        <div class="proposal-header">
+                            <div class="proposal-status pending">Pending</div>
+                            <div class="proposal-id">#DAO-003</div>
+                        </div>
+                        <h3>Governance Token Staking Rewards</h3>
+                        <p>Implementation of staking mechanism for governance tokens with attractive APY rewards for long-term holders.</p>
+                        <div class="proposal-stats">
+                            <div class="voting-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 12%"></div>
+                                </div>
+                                <div class="progress-labels">
+                                    <span>12% For</span>
+                                    <span>88% Pending</span>
+                                </div>
+                            </div>
+                            <div class="proposal-meta">
+                                <span><i class="fas fa-clock"></i> 7 days left</span>
+                                <span><i class="fas fa-users"></i> 89 votes</span>
+                            </div>
+                        </div>
+                        <div class="proposal-actions">
+                            <button class="vote-btn vote-for glass-button">
+                                <i class="fas fa-thumbs-up"></i>
+                                Vote For
+                            </button>
+                            <button class="vote-btn vote-against glass-button">
+                                <i class="fas fa-thumbs-down"></i>
+                                Vote Against
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Treasury Section -->
+        <section id="treasury" class="treasury-section">
+            <div class="container">
+                <h2>Treasury Overview</h2>
+                <div class="treasury-grid">
+                    <div class="treasury-card glass">
+                        <div class="treasury-header">
+                            <h3>Total Assets</h3>
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <div class="treasury-value">$2,456,789</div>
+                        <div class="treasury-change positive">+12.5% this month</div>
+                    </div>
+                    <div class="treasury-card glass">
+                        <div class="treasury-header">
+                            <h3>Available Funds</h3>
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <div class="treasury-value">$1,234,567</div>
+                        <div class="treasury-change neutral">Ready for allocation</div>
+                    </div>
+                    <div class="treasury-card glass">
+                        <div class="treasury-header">
+                            <h3>Staked Assets</h3>
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="treasury-value">$987,654</div>
+                        <div class="treasury-change positive">+8.2% APY</div>
+                    </div>
+                </div>
+                <div class="asset-breakdown glass">
+                    <h3>Asset Breakdown</h3>
+                    <div class="asset-list">
+                        <div class="asset-item">
+                            <div class="asset-info">
+                                <div class="asset-icon">
+                                    <i class="fab fa-ethereum"></i>
+                                </div>
+                                <div class="asset-details">
+                                    <div class="asset-name">Ethereum (ETH)</div>
+                                    <div class="asset-amount">456.78 ETH</div>
+                                </div>
+                            </div>
+                            <div class="asset-value">$1,234,567</div>
+                        </div>
+                        <div class="asset-item">
+                            <div class="asset-info">
+                                <div class="asset-icon">
+                                    <i class="fab fa-bitcoin"></i>
+                                </div>
+                                <div class="asset-details">
+                                    <div class="asset-name">Bitcoin (BTC)</div>
+                                    <div class="asset-amount">12.34 BTC</div>
+                                </div>
+                            </div>
+                            <div class="asset-value">$567,890</div>
+                        </div>
+                        <div class="asset-item">
+                            <div class="asset-info">
+                                <div class="asset-icon">
+                                    <i class="fas fa-coins"></i>
+                                </div>
+                                <div class="asset-details">
+                                    <div class="asset-name">USDC</div>
+                                    <div class="asset-amount">654,332 USDC</div>
+                                </div>
+                            </div>
+                            <div class="asset-value">$654,332</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Governance Section -->
+        <section id="governance" class="governance-section">
+            <div class="container">
+                <h2>Governance</h2>
+                <div class="governance-grid">
+                    <div class="governance-card glass">
+                        <h3>Your Voting Power</h3>
+                        <div class="voting-power">
+                            <div class="power-value">2,456</div>
+                            <div class="power-label">CRYSTAL Tokens</div>
+                        </div>
+                        <div class="power-percentage">0.12% of total supply</div>
+                    </div>
+                    <div class="governance-card glass">
+                        <h3>Participation Rate</h3>
+                        <div class="participation-chart">
+                            <div class="chart-circle">
+                                <div class="chart-fill" style="--percentage: 73"></div>
+                                <div class="chart-text">73%</div>
+                            </div>
+                        </div>
+                        <div class="participation-label">Community Engagement</div>
+                    </div>
+                    <div class="governance-card glass">
+                        <h3>Recent Activity</h3>
+                        <div class="activity-list">
+                            <div class="activity-item">
+                                <i class="fas fa-vote-yea"></i>
+                                <span>Voted on Proposal #DAO-001</span>
+                            </div>
+                            <div class="activity-item">
+                                <i class="fas fa-plus"></i>
+                                <span>Created Proposal #DAO-003</span>
+                            </div>
+                            <div class="activity-item">
+                                <i class="fas fa-comments"></i>
+                                <span>Commented on Discussion</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal for Creating Proposals -->
+    <div id="proposal-modal" class="modal">
+        <div class="modal-content glass">
+            <div class="modal-header">
+                <h3>Create New Proposal</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <form class="proposal-form">
+                <div class="form-group">
+                    <label for="proposal-title">Proposal Title</label>
+                    <input type="text" id="proposal-title" placeholder="Enter proposal title">
+                </div>
+                <div class="form-group">
+                    <label for="proposal-description">Description</label>
+                    <textarea id="proposal-description" placeholder="Describe your proposal in detail"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="proposal-category">Category</label>
+                    <select id="proposal-category">
+                        <option value="treasury">Treasury Management</option>
+                        <option value="governance">Governance</option>
+                        <option value="partnership">Partnerships</option>
+                        <option value="development">Development</option>
+                        <option value="marketing">Marketing</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="voting-duration">Voting Duration (days)</label>
+                    <input type="number" id="voting-duration" value="7" min="1" max="30">
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="cancel-btn glass-button">Cancel</button>
+                    <button type="submit" class="submit-btn glass-button">Create Proposal</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="jhaca.js"></script>
+</body>
+</html>
